@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
-import SearchBox from "./components/search-box/Search-Box.component";
 import "./App.css";
 import CardList from "./components/card-list/card-list.component";
+import SearchBox from "./components/search-box/search-box.component";
 
 const App = () => {
   const [searchField, setSearchField] = useState("");

@@ -39,18 +39,6 @@ const Card = ({ contact }) => {
         </li>
       </ul>
     </div>
-
-    // <div className="card-container">
-    //   <img
-    //     alt={`contact ${name}`}
-    //     src={`https://i.pravatar.cc/300?img=${id}`}
-    //   />
-    //   <h2>{name}</h2>
-    //   <p>{email}</p>
-    //   <p>{phone.substring(13, -6).replaceAll(".", "-")}</p>
-    //   <p>{`${street}, ${city}, ${zipcode}`}</p>
-
-    // </div>
   );
 };
 
