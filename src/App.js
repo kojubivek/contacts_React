@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
-import CardList from "./components/card-list/card-list.component";
-import SearchBox from "./components/search-box/search-box.component";
+import CardList from "./components/card-list/Card-List.component";
+import SearchBox from "./components/search-box/Search-Box.component";
 import "./App.css";
 
 const App = () => {

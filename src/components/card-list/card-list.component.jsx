@@ -1,13 +1,13 @@
-import Card from "../card/card.component";
+import Card from "../card/Card.component";
 
 const CardList = ({ contacts }) => (
   <div className="card-list">
     <div className="container">
-      <div className="row justify-content-start m">
+      <div className="row ml-5">
         {contacts.map((contact) => {
           return (
-            <div className="col col-md-4 mb-3">
-              <Card key={contact.id} contact={contact} />
+            <div key={contact.id} className="col mb-3 justify-content-center">
+              <Card contact={contact} />
             </div>
           );
         })}
